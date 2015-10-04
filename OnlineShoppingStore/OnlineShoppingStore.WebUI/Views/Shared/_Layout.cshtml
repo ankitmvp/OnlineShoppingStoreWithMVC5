@@ -13,16 +13,13 @@
             <div class="navbar-header">
                 <a class="navbar-brand" href="#">Online Shopping Store</a>
             </div>
-            <div>
+            <div >
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">Men</a></li>
-                    <li><a href="#">Women</a></li>
+                    <li>@Html.Action("Menu", "Nav")</li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="container">@RenderBody()</div>
-
+    <div class="container-fluid">@RenderBody()</div>
 </body>
 </html>

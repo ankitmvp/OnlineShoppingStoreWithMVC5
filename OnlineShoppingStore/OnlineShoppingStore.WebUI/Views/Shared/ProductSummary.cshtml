@@ -1,0 +1,9 @@
+﻿@model OnlineShoppingStore.Domain.Entities.Product
+
+<div class="well well-lg">
+    <h3>
+        <strong>@Model.Name</strong>
+        <span class="label label-primary pull-right">@Model.Price.ToString("C")</span>
+    </h3>
+    <span class="lead">@Model.Description</span>
+</div>
