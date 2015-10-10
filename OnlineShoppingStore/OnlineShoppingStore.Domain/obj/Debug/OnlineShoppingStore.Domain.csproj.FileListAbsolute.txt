@@ -8,3 +8,12 @@ c:\users\ankit bansal\documents\visual studio 2015\Projects\OnlineShoppingStore\
 c:\users\ankit bansal\documents\visual studio 2015\Projects\OnlineShoppingStore\OnlineShoppingStore.Domain\obj\Debug\OnlineShoppingStore.Domain.csprojResolveAssemblyReference.cache
 c:\users\ankit bansal\documents\visual studio 2015\Projects\OnlineShoppingStore\OnlineShoppingStore.Domain\obj\Debug\OnlineShoppingStore.Domain.dll
 c:\users\ankit bansal\documents\visual studio 2015\Projects\OnlineShoppingStore\OnlineShoppingStore.Domain\obj\Debug\OnlineShoppingStore.Domain.pdb
+C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\OnlineShoppingStore.Domain.dll.config
+C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\OnlineShoppingStore.Domain.dll
+C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\OnlineShoppingStore.Domain.pdb
+C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\EntityFramework.dll
+C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\EntityFramework.xml
+C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\obj\Debug\OnlineShoppingStore.Domain.dll
+C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\obj\Debug\OnlineShoppingStore.Domain.pdb
