@@ -96,3 +96,8 @@ C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\O
 C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.WebUI\obj\Debug\OnlineShoppingStore.WebUI.csprojResolveAssemblyReference.cache
 C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.WebUI\obj\Debug\OnlineShoppingStore.WebUI.dll
 C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.WebUI\obj\Debug\OnlineShoppingStore.WebUI.pdb
+C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.WebUI\bin\Microsoft.Web.Helpers.dll
+C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.WebUI\bin\WebMatrix.Data.dll
+C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.WebUI\bin\WebMatrix.WebData.dll
+C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.WebUI\bin\WebMatrix.WebData.xml
+C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.WebUI\bin\WebMatrix.Data.xml
