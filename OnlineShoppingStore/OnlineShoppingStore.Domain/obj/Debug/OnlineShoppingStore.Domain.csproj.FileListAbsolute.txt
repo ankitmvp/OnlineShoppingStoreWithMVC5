@@ -17,3 +17,4 @@ C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\O
 C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\obj\Debug\OnlineShoppingStore.Domain.dll
 C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\obj\Debug\OnlineShoppingStore.Domain.pdb
+C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\obj\Debug\OnlineShoppingStore.Domain.csprojResolveAssemblyReference.cache
