@@ -18,3 +18,16 @@ C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\O
 C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\obj\Debug\OnlineShoppingStore.Domain.dll
 C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\obj\Debug\OnlineShoppingStore.Domain.pdb
 C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\obj\Debug\OnlineShoppingStore.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\System.Web.Helpers.dll
+C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\System.Web.Mvc.dll
+C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\System.Web.Razor.dll
+C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\System.Web.WebPages.dll
+C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\System.Web.Helpers.xml
+C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\System.Web.Mvc.xml
+C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\System.Web.Razor.xml
+C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\System.Web.WebPages.xml
+C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\System.Web.WebPages.Razor.xml
