@@ -7,19 +7,18 @@
     <link href="~/Content/bootstrap-theme.min.css" rel="stylesheet" />
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
 </head>
-<body>
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">Online Shopping Store</a>
-            </div>
-            <div >
-                <ul class="nav navbar-nav">
-                    <li>@Html.Action("Menu", "Nav")</li>
-                </ul>
-            </div>
+<body class="container-fluid">
+    <div class="navbar navbar-inverse" role="navigation">
+        <a class="navbar-brand" href="#">Online Shopping Store</a>
+        @Html.Action("Summary", "Cart")
+    </div>
+    <div class="row panel">
+        <div id="categories" class="col-lg-2">
+            @Html.Action("Menu", "Nav")
         </div>
-    </nav>
-    <div class="container-fluid">@RenderBody()</div>
+        <div class="col-lg-10">
+            @RenderBody()
+        </div>
+    </div>
 </body>
 </html>

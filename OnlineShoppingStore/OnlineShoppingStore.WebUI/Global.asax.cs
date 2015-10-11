@@ -1,5 +1,7 @@
 ﻿using System.Web.Mvc;
 using System.Web.Routing;
+using OnlineShoppingStore.Domain.Entities;
+using OnlineShoppingStore.WebUI.Binders;
 
 namespace OnlineShoppingStore.WebUI
 {
@@ -9,6 +11,8 @@ namespace OnlineShoppingStore.WebUI
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+
+            ModelBinders.Binders.Add(typeof(Cart), new CartModelBinder());
         }
     }
 }

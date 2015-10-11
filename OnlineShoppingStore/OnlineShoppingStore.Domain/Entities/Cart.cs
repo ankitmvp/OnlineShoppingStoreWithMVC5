@@ -8,14 +8,14 @@ namespace OnlineShoppingStore.Domain.Entities
 {
     public class Cart
     {
-        private List<CartLine> lineCollection = new List<CartLine>();
+        private readonly List<CartLine> _lineCollection = new List<CartLine>();
 
         public void AddItem(Product product, int quantity)
         {
-            CartLine line = lineCollection.Where(p => p.Product == product).FirstOrDefault();
+            var line = _lineCollection.FirstOrDefault(p => p.Product.ProductId == product.ProductId);
             if (line == null)
             {
-                lineCollection.Add(new CartLine { Product = product, Quantity = quantity });
+                _lineCollection.Add(new CartLine { Product = product, Quantity = quantity });
             }
             else
             {
@@ -25,25 +25,19 @@ namespace OnlineShoppingStore.Domain.Entities
 
         public void RemoveLine(Product product)
         {
-            lineCollection.RemoveAll(p => p.Product == product);
+            _lineCollection.RemoveAll(p => p.Product.ProductId == product.ProductId);
         }
 
         public decimal ComputerTotalValue()
         {
-            return lineCollection.Sum(p => p.Product.Price * p.Quantity);
+            return _lineCollection.Sum(p => p.Product.Price * p.Quantity);
         }
 
-        public IEnumerable<CartLine> Lines
-        {
-            get
-            {
-                return lineCollection;
-            }
-        }
+        public IEnumerable<CartLine> Lines => _lineCollection;
 
         public void Clear()
         {
-            lineCollection.Clear();
+            _lineCollection.Clear();
         }
     }
 }
