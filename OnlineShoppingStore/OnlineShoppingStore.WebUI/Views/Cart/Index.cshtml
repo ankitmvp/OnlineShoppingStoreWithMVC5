@@ -1,9 +1,9 @@
 ﻿@model OnlineShoppingStore.WebUI.Models.CartIndexViewModel
 <style>
-    html > /**/ body #CartTable td {
+    #CartTable td {
         vertical-align: middle;
     }
-</style>>
+</style>
 @{
     ViewBag.Title = "Store: Your Cart with Selected Items";
 }
@@ -46,4 +46,5 @@
 </table>
 <div class="text-center">
     <a class="btn btn-primary btn-lg" href="@Model.ReturnUrl">Continue Shopping</a>
+    @Html.ActionLink("Checkout Now", "Checkout", null, new { @class = "btn btn-primary btn-lg" })
 </div>
