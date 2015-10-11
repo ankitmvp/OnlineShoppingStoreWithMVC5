@@ -1,8 +1,7 @@
 ﻿using OnlineShoppingStore.Domain.Abstract;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
 using OnlineShoppingStore.WebUI.Models;
+using System.Linq;
+using System.Web.Mvc;
 namespace OnlineShoppingStore.WebUI.Controllers
 {
     public class ProductController : Controller

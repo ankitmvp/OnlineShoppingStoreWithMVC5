@@ -1,7 +1,7 @@
-﻿using System.Web.Mvc;
-using System.Web.Routing;
-using OnlineShoppingStore.Domain.Entities;
+﻿using OnlineShoppingStore.Domain.Entities;
 using OnlineShoppingStore.WebUI.Binders;
+using System.Web.Mvc;
+using System.Web.Routing;
 
 namespace OnlineShoppingStore.WebUI
 {
