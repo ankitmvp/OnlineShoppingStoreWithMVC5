@@ -9,7 +9,12 @@
 </head>
 <body class="container-fluid">
     <div class="navbar navbar-inverse" role="navigation">
-        <a class="navbar-brand" href="#">Online Shopping Store</a>
+        <a class="navbar-brand" href="#">
+            <span class="hidden-xs">Online Shopping Store</span> 
+            <div class="visible-xs">Online</div>
+            <div class="visible-xs">Shopping</div>
+            <div class="visible-xs">Store</div>
+        </a>
         @Html.Action("Summary", "Cart")
     </div>
     <div class="row panel">
@@ -17,7 +22,7 @@
             @Html.Action("Menu", "Nav")
         </div>
         <div class="col-lg-10">
-           @RenderBody()
+            @RenderBody()
         </div>
     </div>
 </body>

@@ -31,7 +31,7 @@ namespace OnlineShoppingStore.Domain.Concrete
                 foreach (var line in cart.Lines)
                 {
                     var subtotal = line.Product.Price * line.Quantity;
-                    body.AppendFormat("{0} x {1} (subtotal: {2:C}", line.Quantity, line.Product.Name, subtotal);
+                    body.AppendFormat("{0} x {1} (subtotal: {2:C})\n", line.Quantity, line.Product.Name, subtotal);
                 }
                 body.AppendFormat("Total Order value: {0:C}", cart.ComputerTotalValue())
                     .AppendLine("---")
