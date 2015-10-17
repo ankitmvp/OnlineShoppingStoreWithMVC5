@@ -17,7 +17,6 @@ C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\O
 C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\obj\Debug\OnlineShoppingStore.Domain.dll
 C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\obj\Debug\OnlineShoppingStore.Domain.pdb
-C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\obj\Debug\OnlineShoppingStore.Domain.csprojResolveAssemblyReference.cache
 C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\Microsoft.Web.Infrastructure.dll
 C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\System.Web.Helpers.dll
 C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\System.Web.Mvc.dll
@@ -31,3 +30,6 @@ C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\O
 C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\System.Web.WebPages.xml
 C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\obj\Debug\OnlineShoppingStore.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\obj\Debug\OnlineShoppingStore.Domain.Migrations.initial.resources
+C:\Users\Ankit Bansal\Documents\GitHubVisualStudio\OnlineShoppingStoreWithMVC5\OnlineShoppingStore\OnlineShoppingStore.Domain\obj\Debug\OnlineShoppingStore.Domain.csproj.GenerateResource.Cache

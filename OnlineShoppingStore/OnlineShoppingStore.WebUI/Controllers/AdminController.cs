@@ -8,6 +8,7 @@ using OnlineShoppingStore.Domain.Entities;
 
 namespace OnlineShoppingStore.WebUI.Controllers
 {
+    [Authorize]
     public class AdminController : Controller
     {
         private IProductRepository repository;
