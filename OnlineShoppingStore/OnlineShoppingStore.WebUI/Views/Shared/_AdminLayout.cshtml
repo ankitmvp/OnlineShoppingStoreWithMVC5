@@ -9,6 +9,7 @@
     <title>@ViewBag.Title</title>
     <link href="~/Content/bootstrap.css" rel="stylesheet" />
     <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
+    <meta name="description" content="The description of my page" />
 </head>
 <body>
     <div>
@@ -21,9 +22,8 @@
             if (userName != "")
             {
                 <h3>
-                    Online Shopping Store<span class="btn btn-danger pull-right">@Html.ActionLink(userName + "-Logout", "Logout", "Account", new { @style = "color: white" })</span>
+                    Online Shopping Store<span class="btn btn-danger pull-right">@Html.ActionLink("Welcome " + userName + "-Logout", "Logout", "Account", null, new { @style = "color: white" })</span>
                 </h3>
-
             }
         }
         @RenderBody()
