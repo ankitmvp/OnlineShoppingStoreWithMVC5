@@ -1,7 +1,6 @@
 ﻿using OnlineShoppingStore.Domain.Abstract;
 using OnlineShoppingStore.Domain.Entities;
 using System.Collections.Generic;
-using System;
 
 namespace OnlineShoppingStore.Domain.Concrete
 {

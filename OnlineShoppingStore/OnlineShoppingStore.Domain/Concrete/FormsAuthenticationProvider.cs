@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using OnlineShoppingStore.Domain.Abstract;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using OnlineShoppingStore.Domain.Abstract;
 
 namespace OnlineShoppingStore.Domain.Concrete
 {
-   public class FormsAuthenticationProvider:IAuthentication
+    public class FormsAuthenticationProvider:IAuthentication
     {
         private readonly EFDbContext efDbContext=new EFDbContext();
        public bool Authenticate(string username, string password)

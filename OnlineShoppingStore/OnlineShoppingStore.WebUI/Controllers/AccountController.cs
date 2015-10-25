@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using OnlineShoppingStore.Domain.Abstract;
+using OnlineShoppingStore.WebUI.Models;
 using System.Web.Mvc;
 using System.Web.Security;
-using OnlineShoppingStore.Domain.Abstract;
-using OnlineShoppingStore.WebUI.Models;
 
 namespace OnlineShoppingStore.WebUI.Controllers
 {

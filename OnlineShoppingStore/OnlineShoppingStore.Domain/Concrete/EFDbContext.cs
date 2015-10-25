@@ -1,6 +1,5 @@
 ﻿using OnlineShoppingStore.Domain.Entities;
 using System.Data.Entity;
-using System.Data.Entity.Core.Common;
 
 namespace OnlineShoppingStore.Domain.Concrete
 {
