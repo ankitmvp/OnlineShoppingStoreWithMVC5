@@ -7,7 +7,7 @@ namespace OnlineShoppingStore.WebUI.Controllers
 {
     public class NavController : Controller
     {
-        private IProductRepository repository;
+        private readonly IProductRepository repository;
 
         public NavController(IProductRepository repo)
         {

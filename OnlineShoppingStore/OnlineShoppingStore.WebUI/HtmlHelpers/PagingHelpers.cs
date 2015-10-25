@@ -21,7 +21,7 @@ namespace OnlineShoppingStore.WebUI.HtmlHelpers
                     tag.AddCssClass("btn-primary");
                 }
                 tag.AddCssClass("btn btn-default");
-                result.Append(tag.ToString());
+                result.Append(tag);
             }
             return MvcHtmlString.Create(result.ToString());
         }

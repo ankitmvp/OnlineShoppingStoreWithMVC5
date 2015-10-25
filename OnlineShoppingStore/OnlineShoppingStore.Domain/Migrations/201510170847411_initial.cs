@@ -6,18 +6,18 @@ namespace OnlineShoppingStore.Domain.Migrations
     {
         public override void Up()
         {
-            //CreateTable(
-            //    "dbo.Products",
-            //    c => new
-            //        {
-            //            ProductId = c.Int(nullable: false, identity: true),
-            //            Name = c.String(nullable: false),
-            //            Description = c.String(nullable: false),
-            //            Price = c.Decimal(nullable: false, precision: 18, scale: 2),
-            //            Category = c.String(nullable: false),
-            //        })
-            //    .PrimaryKey(t => t.ProductId);
-            
+            CreateTable(
+                "dbo.Products",
+                c => new
+                {
+                    ProductId = c.Int(nullable: false, identity: true),
+                    Name = c.String(nullable: false),
+                    Description = c.String(nullable: false),
+                    Price = c.Decimal(nullable: false, precision: 18, scale: 2),
+                    Category = c.String(nullable: false),
+                })
+                .PrimaryKey(t => t.ProductId);
+
             CreateTable(
                 "dbo.Users",
                 c => new
@@ -32,7 +32,7 @@ namespace OnlineShoppingStore.Domain.Migrations
         public override void Down()
         {
             DropTable("dbo.Users");
-            //DropTable("dbo.Products");
+            DropTable("dbo.Products");
         }
     }
 }

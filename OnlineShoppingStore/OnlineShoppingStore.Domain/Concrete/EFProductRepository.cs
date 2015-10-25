@@ -7,13 +7,7 @@ namespace OnlineShoppingStore.Domain.Concrete
     public class EFProductRepository : IProductRepository
     {
         private readonly EFDbContext context = new EFDbContext();
-        public IEnumerable<Product> Products
-        {
-            get
-            {
-                return context.Products;
-            }
-        }
+        public IEnumerable<Product> Products => context.Products;
 
         public Product DeleteProduct(int productId)
         {

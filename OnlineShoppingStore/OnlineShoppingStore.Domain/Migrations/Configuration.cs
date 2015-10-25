@@ -2,14 +2,14 @@ namespace OnlineShoppingStore.Domain.Migrations
 {
     using System.Data.Entity.Migrations;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<OnlineShoppingStore.Domain.Concrete.EFDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<Concrete.EFDbContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
         }
 
-        protected override void Seed(OnlineShoppingStore.Domain.Concrete.EFDbContext context)
+        protected override void Seed(Concrete.EFDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 

@@ -7,7 +7,7 @@ namespace OnlineShoppingStore.WebUI.Controllers
     public class ProductController : Controller
     {
         private readonly IProductRepository repository;
-        public int PageSize = 4;
+        private int PageSize = 4;
         public ProductController(IProductRepository repo)
         {
             repository = repo;
@@ -25,7 +25,7 @@ namespace OnlineShoppingStore.WebUI.Controllers
                 {
                     CurrentPage = page,
                     ItemsPerPage = PageSize,
-                    TotalItems = category == null ? repository.Products.Count() : repository.Products.Where(p => p.Category == category).Count()
+                    TotalItems = category == null ? repository.Products.Count() : repository.Products.Count(p => p.Category == category)
                 },
                 CurrentCategory = category
             };

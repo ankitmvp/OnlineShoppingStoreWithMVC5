@@ -8,7 +8,7 @@ namespace OnlineShoppingStore.WebUI.Controllers
     [Authorize]
     public class AdminController : Controller
     {
-        private IProductRepository repository;
+        private readonly IProductRepository repository;
 
         public AdminController(IProductRepository repo)
         {
@@ -30,7 +30,7 @@ namespace OnlineShoppingStore.WebUI.Controllers
             if (ModelState.IsValid)
             {
                 repository.SaveProduct(product);
-                TempData["message"] = string.Format("{0} has been saved", product.Name);
+                TempData["message"] = $"{product.Name} has been saved";
                 return RedirectToAction("Index");
             }
             else
@@ -50,7 +50,7 @@ namespace OnlineShoppingStore.WebUI.Controllers
             if (ModelState.IsValid)
             {
                 repository.SaveProduct(product);
-                TempData["message"] = string.Format("{0} has been saved", product.Name);
+                TempData["message"] = $"{product.Name} has been saved";
                 return RedirectToAction("Index");
             }
             else
@@ -65,7 +65,7 @@ namespace OnlineShoppingStore.WebUI.Controllers
             Product deletedProduct = repository.DeleteProduct(productId);
             if (deletedProduct != null)
             {
-                TempData["message"] = string.Format("{0} was deleted", deletedProduct.Name);
+                TempData["message"] = $"{deletedProduct.Name} was deleted";
             }
             return RedirectToAction("Index");
         }
